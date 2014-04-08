@@ -21,6 +21,7 @@
 		1241CDAE18F4ADAC007E6DDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1241CD9018F4ADAC007E6DDF /* UIKit.framework */; };
 		1241CDB618F4ADAC007E6DDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1241CDB418F4ADAC007E6DDF /* InfoPlist.strings */; };
 		1241CDB818F4ADAC007E6DDF /* GIT_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1241CDB718F4ADAC007E6DDF /* GIT_TestTests.m */; };
+		1241CDC318F4AFD0007E6DDF /* CABTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1241CDC218F4AFD0007E6DDF /* CABTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		1241CDB318F4ADAC007E6DDF /* GIT TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GIT TestTests-Info.plist"; sourceTree = "<group>"; };
 		1241CDB518F4ADAC007E6DDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1241CDB718F4ADAC007E6DDF /* GIT_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIT_TestTests.m; sourceTree = "<group>"; };
+		1241CDC118F4AFD0007E6DDF /* CABTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CABTest.h; sourceTree = "<group>"; };
+		1241CDC218F4AFD0007E6DDF /* CABTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CABTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		1241CD8018F4ADAC007E6DDF = {
 			isa = PBXGroup;
 			children = (
+				1241CDC118F4AFD0007E6DDF /* CABTest.h */,
+				1241CDC218F4AFD0007E6DDF /* CABTest.m */,
 				1241CD9218F4ADAC007E6DDF /* GIT Test */,
 				1241CDB118F4ADAC007E6DDF /* GIT TestTests */,
 				1241CD8B18F4ADAC007E6DDF /* Frameworks */,
@@ -252,6 +257,7 @@
 			files = (
 				1241CD9918F4ADAC007E6DDF /* main.m in Sources */,
 				1241CD9D18F4ADAC007E6DDF /* CABAppDelegate.m in Sources */,
+				1241CDC318F4AFD0007E6DDF /* CABTest.m in Sources */,
 				1241CDA318F4ADAC007E6DDF /* CABViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
